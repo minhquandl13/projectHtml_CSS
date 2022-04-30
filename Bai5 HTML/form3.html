@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table {
+      padding: 2px;
+      border-color: blue;
+    }
+
+    input[type=text] {
+      border: 1px solid;
+      border-color: #414141;
+      width: 189px;
+      margin: 2px;
+      padding: 12px;
+      padding-right: 365px;
+      background-color: white;
+      font-size: 14px;
+      font-family: Arial;
+      color: grey;
+    }
+
+    textarea {
+      border: 1px solid;
+      border-color: #414141;
+      width: 554px;
+      margin: 1px;
+      padding: 5px 6px;
+      background-color: white;
+      font-size: 14px;
+      font-family: Arial;
+      color: grey;
+    }
+
+    .button1 {
+      border: 1px solid blue;
+      padding: 5px 6px;
+      background-color: rgb(18, 18, 165);
+      font-size: 11px;
+      font-family: Arial;
+      color: white;
+    }
+
+    .button2 {
+      border: 1px solid blue;
+      padding: 5px 6px;
+      background-color: rgb(18, 18, 165);
+      font-size: 11px;
+      font-family: Arial;
+      color: white;
+    }
+
+    .button3 {
+      border: none;
+      background-color: navy;
+      margin: 4px;
+      padding: 1px;
+      font-size: 11px;
+      font-family: Arial;
+      color: white;
+    }
+
+    .button4 {
+      border: 1px solid;
+      border-color: blue;
+      background-color: navy;
+      margin: 4px;
+      padding: 1px;
+      font-size: 11px;
+      font-family: Arial;
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body bgcolor="navy">
+  <table align="center">
+    <tbody>
+      <tr>
+        <td>
+          <table align="left">
+            <tbody>
+              <tr>
+                <td>
+                  <p>
+                    <button class="button1">Load next 10 comments</button>
+                    <button class="button2">Load all comments</button>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table align="center" border="1" width="560">
+            <form>
+              <tbody>
+                <tr>
+                  <td>
+                    <input type="text" placeholder="Your name (optional)">
+                    <br>
+                    <textarea placeholder="Write your message"></textarea>
+                    <br>
+                    <table align="right">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <button type="reset" class="button3">Cancel</button>
+                            <button type="submit" class="button4">Send</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </form>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
